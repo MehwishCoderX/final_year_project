@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textSection {
+    flex: 1;
+  }
+  
+  .heading {
+    font-size: 2em;
+    color: palevioletred;
+    padding-left: 40px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .imageSection {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
